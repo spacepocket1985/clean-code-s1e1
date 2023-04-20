@@ -140,7 +140,7 @@
 }
 
 .todo__task {
-  width: 226px
+  width: 226px;
 }
 
 .button-delete__pic {
@@ -163,12 +163,12 @@
 /* Edit Task */
 
 .todo__task {
-  display: none
+  display: none;
 }
 
 .list-item_edit .todo__task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list-item_edit .todo__task-title {
