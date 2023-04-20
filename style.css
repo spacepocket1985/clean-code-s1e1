@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -29,21 +29,22 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
+  vertical-align: middle;
 }
 .add-item__row-wrapper {
   display: flex;
 }
-ul {
+.completed__list,
+.todo__list
+ {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+.list-item {
   list-style:none;
 }
-input{
-  outline:none;
-}
+
 .button {
   background: none;
   border: 0px;
@@ -53,15 +54,13 @@ input{
   font-family: Lato, sans-serif;
   cursor: pointer;
   outline:none;
+  vertical-align: middle;
 }
 .button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-
-title
- {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -81,6 +80,7 @@ title
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  outline:none;
 }
 .task:focus {
   color: #333;
@@ -96,23 +96,22 @@ title
 }
 
 /* Task list */
-li {
+.list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-li > * {
-  vertical-align: middle;
-}
 
 .checkbox {
   margin: 0 10px;
+  outline:none;
+  vertical-align: middle;
 }
-li > label {
+.todo__task-title,
+.completed__task-title {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
