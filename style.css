@@ -162,15 +162,12 @@
 
 /* Edit Task */
 
-.todo__task {
+.todo__task,
+.list-item_edit .todo__task-title {
   display: none;
 }
 
 .list-item_edit .todo__task {
   display: inline-block;
   width: 224px;
-}
-
-.list-item_edit .todo__task-title {
-  display: none;
 }
