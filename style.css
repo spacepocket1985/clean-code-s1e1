@@ -21,7 +21,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -49,12 +49,12 @@
 .completed__list,
 .todo__list
  {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list-item {
-  list-style:none;
+  list-style: none;
 }
 
 .button {
@@ -65,7 +65,7 @@
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
   vertical-align: middle;
 }
 
@@ -96,7 +96,7 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
-  outline:none;
+  outline: none;
 }
 
 .task:focus {
@@ -127,7 +127,7 @@
 
 .checkbox {
   margin: 0 10px;
-  outline:none;
+  outline: none;
   vertical-align: middle;
 }
 
@@ -163,14 +163,14 @@
 /* Edit Task */
 
 .todo__task {
-  display:none
+  display: none
 }
 
 .list-item_edit .todo__task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list-item_edit .todo__task-title {
-  display:none;
+  display: none;
 }
