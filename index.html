@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body class="body">
-    <div class="header">
+    <header class="header">
       <img class="header__pic" src="./eisenhower-matrix.jpg">
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main">
-      <div class="add-item">
+    </header>
+    <main class="main">
+      <section class="add-item">
         <h3 class="add-item__title title">Add Item</h3>
         <div class="add-item__row-wrapper">
           <input class="add-item__task task" type="text">
           <button class="add-item__buton button">Add</button>
         </div>
-      </div>
-      <h3 class="todo__title title">Todo</h3>
-      <ul class="todo__list">
+      </section>
+      <section class="todo">
+        <h3 class="todo__title title">Todo</h3>
+        <ul class="todo__list">
           <li class="todo__list-item list-item">
             <input class="checkbox" type="checkbox">
             <label class="todo__task-title task">Pay Bills</label>
@@ -41,6 +42,8 @@
             </button>
           </li>
       </ul>
+    </section>
+    <section class="completed">
       <h3 class="completed__title title">Completed</h3>
       <ul class="completed__list">
         <li class="completed__list-item list-item">
@@ -53,7 +56,8 @@
           </button>
         </li>
       </ul>
-    </div>
+    </section>
+    </main>
   <script src="app.js"></script>
   </body>
 </html>
