@@ -155,8 +155,7 @@
 
 /* Completed */
 
-.completed .todo__task-title,
-.completed__task-title {
+.completed .todo__task-title {
   text-decoration: line-through;
   color: #888;
 }
