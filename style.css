@@ -155,7 +155,7 @@
 
 /* Completed */
 
-.completed .todo__task-title {
+.completed .task {
   text-decoration: line-through;
   color: #888;
 }
@@ -163,11 +163,14 @@
 /* Edit Task */
 
 .todo__task,
+.completed__task,
+.list-item_edit .completed__task-title,
 .list-item_edit .todo__task-title {
   display: none;
 }
 
-.list-item_edit .todo__task {
+.list-item_edit .todo__task,
+.list-item_edit .completed__task {
   display: inline-block;
   width: 224px;
 }
